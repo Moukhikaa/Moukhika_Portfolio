@@ -1,37 +1,44 @@
 ﻿# Gorji Moukhika Portfolio
 
-A responsive Flutter Web portfolio personalized from the original Polymorphism template for Gorji Moukhika.
+A modern personal portfolio website for **Gorji Moukhika**, showcasing education, certifications, projects, skills, hackathon achievements, and contact details.
 
-## Highlights
+🔗 **Live Portfolio:** https://moukhika-portfolio.vercel.app/
 
-- Resume-backed profile content
-- Personal hero imagery and avatar assets
-- Projects from the current resume
-- Contact form with Moukhika's email fallback
-- Links to LinkedIn, GitHub, CodeChef, LeetCode, portfolio, and resume
+## About
 
-## Run Locally
+This portfolio represents my journey as a Computer Science undergraduate with interests in full-stack web development, software development, AI/ML, automation, and computer vision. It includes my academic background, verified certifications, internship experience, and selected projects.
 
-```bash
-flutter pub get
-flutter run -d chrome
-```
+## Features
 
-## Build
+- Interactive hero section with personal branding
+- About and education sections
+- Learning path with certification proofs
+- Projects section with GitHub and live demo links
+- Special highlight for Detox BuildMatch hackathon achievement
+- Skills section based on resume skills
+- Contact section with professional links
+- Responsive design for desktop and mobile
+- Automatically deployed through Vercel
 
-```bash
-flutter build web --release
-```
+## Tech Stack
 
-## Continuous Deployment
+- Flutter Web
+- Dart
+- Firebase/REST API concepts
+- HTML, CSS, JavaScript
+- React.js, Node.js
+- Python
+- OpenCV
+- MediaPipe
+- MongoDB
+- MySQL
+- Git and GitHub
+- Vercel
 
-This project is configured for Vercel. After the project is pushed to GitHub,
-connect the GitHub repository in Vercel. Every push to the main branch will
-automatically rebuild and deploy the Flutter web portfolio.
 
-Use these Vercel settings:
+## Deployment
 
-- Framework Preset: Other
-- Root Directory: the folder that contains `pubspec.yaml`
-- Build Command: already defined in `vercel.json`
-- Output Directory: already defined as `build/web`
+This portfolio is deployed on **Vercel** and connected with GitHub.  
+Every update pushed to the `main` branch is automatically redeployed.
+
+
